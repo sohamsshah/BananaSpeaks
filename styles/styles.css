@@ -1,14 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root{
+    --primary-color: #0A75BC; 
+    --off-white: #eee;
+    --bright-yellow: #FCE029;
+    --medium-brown: #A87A51;
+}
+body {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0px;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.flex{
+    display: flex;
+
+}
+
+/* Navbar */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--bright-yellow);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+/* Input Section */
+
+#section-input, #section-output{
+    padding: 2rem;
+}
+
 #txt-input, #txt-output{
     display: block;
     width: 50%;
     height: 4rem;
     padding: 1rem;
+    border-color: var(--primary-color);
 }
+
+/* Button Section */
+
+#section-button{
+    padding: 0rem 2rem;
+}
+
 
 #btn-translate{
     padding: 1rem;
+    border-radius: 7%;
+    color: black;
+    background-color: var(--medium-brown);
+    border-color: black;
+    font-family: 'Permanent Marker', cursive;
+    height: 40px;
+    
 }
 
 .btn{
-    padding: 2rem 0rem;
+    width: 50%;
+    text-align: center;
 }
+
+#btn-translate:hover{
+    background-color: #815b3a;
+}
+
+/* Output Section */
+
+
+

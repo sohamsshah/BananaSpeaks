@@ -7,12 +7,31 @@
     <link rel="Stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    <h1> Banana Translator </h1>
-    <textarea id = "txt-input" placeholder="Enter the text to be translated"></textarea>
-    <div class="btn">
-        <button id="btn-translate">translate</button>
-    </div>
-    <textarea id = "txt-output"></textarea>
+    <section id="navbar">
+        <nav class="navigation container">
+            <div class="nav-brand">Banana Speaks</div>
+            
+        </nav>
+    </section>
+    <section id="section-input">
+        <h1> Enter your Text Here 👇</h1>
+        <textarea id = "txt-input" placeholder="Text here"></textarea>
+    </section>
+
+    <section id="section-button">
+        <div class="btn">
+            <div class="flex">
+            <img src="images/minion.svg" height="20%" width="30%">
+            <button id="btn-translate">translate</button>
+        </div>
+        </div>
+
+    </section>
+    
+    <section id="section-output">
+        <textarea id = "txt-output"></textarea>
+    </section>
+    
     <script src="app.js"></script>
     
     
