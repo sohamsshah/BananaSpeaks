@@ -1,0 +1,14 @@
+#txt-input, #txt-output{
+    display: block;
+    width: 50%;
+    height: 4rem;
+    padding: 1rem;
+}
+
+#btn-translate{
+    padding: 1rem;
+}
+
+.btn{
+    padding: 2rem 0rem;
+}
