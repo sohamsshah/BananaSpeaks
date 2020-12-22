@@ -1,7 +1,7 @@
 # Banana Speaks
 Translate your thoughts into Minion Language
 
-Live website: [Morse Decipher](https://morsedecipher.netlify.app/)
+Live website: [Banana Speaks](https://bananaspeakz.netlify.app/)
 
 ### Tech Stack:
 * HTML5
